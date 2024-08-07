@@ -118,6 +118,7 @@ h3.card-title {
 .proto-image-title {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 0px;
 }
 .proto-image img {
     display: flex;
@@ -125,6 +126,7 @@ h3.card-title {
     max-width: 500px; /* Adjust the max-width value to make the image smaller */
     width: 100%; /* Ensure the image takes up 100% of the container width */
     height: auto; /* Maintain aspect ratio */
+    margin-right: 50px;
 }
 
 .proto-image {
