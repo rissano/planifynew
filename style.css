@@ -1,0 +1,219 @@
+
+/* Header Styling */
+h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Nav Tabs Styling */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+    justify-content: center;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    border-color: #007bff #007bff #fff;
+    color: #fff;
+}
+
+/* Tab Content Styling */
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-pane p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tab-pane ul {
+    padding-left: 20px;
+}
+
+.tab-pane ul li {
+    margin-bottom: 10px;
+}
+.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    color: hotpink; 
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: hotpink; /* Keep text color hot pink on hover */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    border-color: #007bff #007bff #fff;
+    color: blue; /* Text color turns blue when active (clicked) */
+}
+
+
+
+.row.intro {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.card-body.statement h3 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+h3.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.proto-section-heading {
+    text-align: center;
+}
+
+.proto-image-container {
+    text-align: center;
+}
+
+.proto-image-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.proto-image img {
+    display: flex;
+    justify-content: center;
+    max-width: 500px; /* Adjust the max-width value to make the image smaller */
+    width: 100%; /* Ensure the image takes up 100% of the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.proto-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.user-img {
+    text-align: center;
+}
+
+.img-fluid {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.user-persona p {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    width: 75%;
+    margin-left: 20px;
+}
+
+.user-persona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.larger-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.fp p {
+    margin-left: 30px;
+}
+.feat-container {
+    margin-bottom: 30px;
+}
+
+
+
+.custom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-col {
+    /* Add custom styles for columns if needed */
+}
+
+.custom-card {
+    height: 100%;
+}
+
+.custom-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-card-title {
+    margin-bottom: 15px;
+}
+
+.custom-img {
+    max-width: 100%;
+}
+
+
+
+
+.persona-card-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.value p {
+    margin-left: 20px;
+}
+.feature p {
+    margin-left: 20px;
+}
+.interview-image {
+    display: flex;
+    justify-content: center;
+}
